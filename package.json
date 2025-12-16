@@ -7,7 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "validate": "tsx scripts/validate-words.ts"
+    "lint:fix": "next lint --fix",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,css,md}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,css,md}\"",
+    "validate": "tsx scripts/validate-words.ts",
+    "check": "npm run lint && npm run format:check && npm run validate"
   },
   "keywords": [
     "vocabulary",
@@ -31,6 +35,9 @@
     "typescript": "^5.9.3"
   },
   "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "^16.0.7",
+    "prettier": "^3.4.2",
     "tsx": "^4.21.0"
   }
 }

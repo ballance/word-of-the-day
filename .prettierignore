@@ -1,0 +1,20 @@
+# Dependencies
+node_modules
+package-lock.json
+
+# Build outputs
+.next
+out
+build
+dist
+
+# Terraform
+terraform/.terraform
+*.tfstate
+*.tfstate.backup
+tfplan
+
+# Other
+.git
+*.log
+*.md

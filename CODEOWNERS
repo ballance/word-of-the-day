@@ -1,0 +1,46 @@
+# CODEOWNERS
+#
+# This file defines who must review and approve changes to specific files.
+# GitHub will automatically request reviews from these users when PRs modify these files.
+#
+# Learn more: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# ============================================================================
+# CRITICAL FILES - Require maintainer approval
+# ============================================================================
+
+# Dependencies - any changes require careful security review
+package.json @ballance
+package-lock.json @ballance
+
+# Configuration files - can break the build or deployment
+next.config.ts @ballance
+tsconfig.json @ballance
+tailwind.config.ts @ballance
+postcss.config.mjs @ballance
+
+# All TypeScript/JavaScript files - code changes need review
+*.ts @ballance
+*.tsx @ballance
+*.js @ballance
+*.mjs @ballance
+
+# Deployment and infrastructure - highly sensitive
+deploy.sh @ballance
+terraform/ @ballance
+.github/ @ballance
+
+# Security and community standards
+SECURITY.md @ballance
+CODE_OF_CONDUCT.md @ballance
+CODEOWNERS @ballance
+
+# ============================================================================
+# CONTENT FILES - Can be reviewed by maintainers or trusted contributors
+# ============================================================================
+
+# Word data - main contribution area (still requires review, but less strict)
+data/words.json @ballance
+
+# Documentation - open to contributions
+*.md @ballance

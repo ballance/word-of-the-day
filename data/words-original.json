@@ -1,0 +1,140 @@
+{
+  "startDate": "20260101",
+  "metadata": {
+    "version": "1.0",
+    "totalWords": 10,
+    "lastUpdated": "2024-12-07"
+  },
+  "words": [
+    {
+      "id": 1,
+      "word": "ephemeral",
+      "date": "20260101",
+      "pronunciation": "ih-FEM-er-uhl",
+      "partOfSpeech": "adjective",
+      "definition": "Lasting for a very short time; fleeting or transitory.",
+      "example": "The ephemeral beauty of cherry blossoms reminds us to appreciate fleeting moments.",
+      "etymology": "From Greek 'ephēmeros' meaning 'lasting only a day', from 'epi' (upon) + 'hēmera' (day).",
+      "synonyms": ["transient", "fleeting", "momentary", "temporary"],
+      "difficulty": "intermediate",
+      "tags": ["time", "philosophy"]
+    },
+    {
+      "id": 2,
+      "word": "ubiquitous",
+      "date": "20260102",
+      "pronunciation": "yoo-BIK-wi-tuhs",
+      "partOfSpeech": "adjective",
+      "definition": "Present, appearing, or found everywhere; omnipresent.",
+      "example": "Smartphones have become ubiquitous in modern society.",
+      "etymology": "From Latin 'ubique' meaning 'everywhere', from 'ubi' (where).",
+      "synonyms": ["omnipresent", "pervasive", "universal", "widespread"],
+      "difficulty": "intermediate",
+      "tags": ["presence", "frequency"]
+    },
+    {
+      "id": 3,
+      "word": "ameliorate",
+      "date": "20260103",
+      "pronunciation": "uh-MEEL-yuh-rayt",
+      "partOfSpeech": "verb",
+      "definition": "To make something better or more tolerable; to improve.",
+      "example": "The new policies were designed to ameliorate working conditions for employees.",
+      "etymology": "From French 'améliorer', from Latin 'melior' meaning 'better'.",
+      "synonyms": ["improve", "enhance", "better", "upgrade"],
+      "difficulty": "advanced",
+      "tags": ["improvement", "change"]
+    },
+    {
+      "id": 4,
+      "word": "pernicious",
+      "date": "20260104",
+      "pronunciation": "per-NISH-uhs",
+      "partOfSpeech": "adjective",
+      "definition": "Having a harmful effect, especially in a gradual or subtle way.",
+      "example": "The pernicious influence of misinformation can undermine democratic institutions.",
+      "etymology": "From Latin 'perniciosus', from 'pernicies' meaning 'destruction'.",
+      "synonyms": ["harmful", "damaging", "detrimental", "deleterious"],
+      "difficulty": "advanced",
+      "tags": ["harm", "negative"]
+    },
+    {
+      "id": 5,
+      "word": "gregarious",
+      "date": "20260105",
+      "pronunciation": "grih-GAIR-ee-uhs",
+      "partOfSpeech": "adjective",
+      "definition": "Fond of company; sociable and enjoying the company of others.",
+      "example": "Her gregarious nature made her the perfect host for social gatherings.",
+      "etymology": "From Latin 'gregarius', from 'grex' meaning 'flock' or 'herd'.",
+      "synonyms": ["sociable", "outgoing", "social", "extroverted"],
+      "difficulty": "intermediate",
+      "tags": ["personality", "social"]
+    },
+    {
+      "id": 6,
+      "word": "taciturn",
+      "date": "20260106",
+      "pronunciation": "TAS-i-turn",
+      "partOfSpeech": "adjective",
+      "definition": "Reserved or uncommunicative in speech; saying little.",
+      "example": "The taciturn detective revealed nothing about the ongoing investigation.",
+      "etymology": "From Latin 'taciturnus', from 'tacitus' meaning 'silent'.",
+      "synonyms": ["reserved", "reticent", "quiet", "uncommunicative"],
+      "difficulty": "advanced",
+      "tags": ["personality", "communication"]
+    },
+    {
+      "id": 7,
+      "word": "sagacious",
+      "date": "20260107",
+      "pronunciation": "suh-GAY-shuhs",
+      "partOfSpeech": "adjective",
+      "definition": "Having or showing keen mental discernment and good judgment; wise.",
+      "example": "The sagacious investor anticipated market trends before they became obvious.",
+      "etymology": "From Latin 'sagax' meaning 'wise' or 'keen', from 'sagire' (to perceive keenly).",
+      "synonyms": ["wise", "shrewd", "perceptive", "astute"],
+      "difficulty": "advanced",
+      "tags": ["intelligence", "wisdom"]
+    },
+    {
+      "id": 8,
+      "word": "resilient",
+      "date": "20260108",
+      "pronunciation": "rih-ZIL-yuhnt",
+      "partOfSpeech": "adjective",
+      "definition": "Able to withstand or recover quickly from difficult conditions.",
+      "example": "The resilient community rebuilt after the natural disaster.",
+      "etymology": "From Latin 'resilire' meaning 'to leap back', from 're-' (back) + 'salire' (to jump).",
+      "synonyms": ["tough", "strong", "adaptable", "flexible"],
+      "difficulty": "beginner",
+      "tags": ["strength", "recovery"]
+    },
+    {
+      "id": 9,
+      "word": "eloquent",
+      "date": "20260109",
+      "pronunciation": "EL-uh-kwuhnt",
+      "partOfSpeech": "adjective",
+      "definition": "Fluent or persuasive in speaking or writing; clearly expressing or indicating something.",
+      "example": "Her eloquent speech moved the audience to tears.",
+      "etymology": "From Latin 'eloquens', from 'eloqui' meaning 'to speak out', from 'e-' (out) + 'loqui' (to speak).",
+      "synonyms": ["articulate", "fluent", "expressive", "persuasive"],
+      "difficulty": "beginner",
+      "tags": ["communication", "language"]
+    },
+    {
+      "id": 10,
+      "word": "serendipity",
+      "date": "20260110",
+      "pronunciation": "ser-uhn-DIP-i-tee",
+      "partOfSpeech": "noun",
+      "definition": "The occurrence of events by chance in a happy or beneficial way; a fortunate accident.",
+      "example": "Finding my childhood friend in a foreign country was pure serendipity.",
+      "etymology": "Coined by Horace Walpole in 1754, from the Persian fairy tale 'The Three Princes of Serendip' whose heroes made fortunate discoveries.",
+      "synonyms": ["luck", "fortune", "chance", "happenstance"],
+      "difficulty": "intermediate",
+      "tags": ["chance", "fortune"]
+    }
+  ]
+}

@@ -301,12 +301,111 @@ Sources can include:
 
 ## Contributing
 
-This is currently a personal project. If you have suggestions for words or improvements:
+We welcome contributions! The easiest way to contribute is by adding new words to the collection.
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
+### How to Add a Word (Step-by-Step)
+
+**1. Fork and Clone**
+
+- Click the "Fork" button on GitHub to create your own copy
+- Clone your fork locally:
+  ```bash
+  git clone https://github.com/YOUR-USERNAME/word-of-the-day.git
+  cd word-of-the-day
+  ```
+
+**2. Install Dependencies**
+
+```bash
+npm install
+```
+
+**3. Create a Feature Branch**
+
+```bash
+git checkout -b add-word-ephemeral
+```
+
+Use a descriptive branch name like `add-word-[yourword]`.
+
+**4. Add Your Word**
+
+Edit `data/words.json` and add a new entry:
+
+```json
+{
+  "id": 366,
+  "word": "ephemeral",
+  "date": "20270101",
+  "pronunciation": "ih-FEM-er-uhl",
+  "partOfSpeech": "adjective",
+  "definition": "Lasting for a very short time; fleeting.",
+  "example": "The ephemeral beauty of cherry blossoms makes them all the more precious.",
+  "etymology": "From Greek 'ephēmeros' meaning 'lasting only a day'.",
+  "synonyms": ["transient", "fleeting", "momentary", "temporary"],
+  "difficulty": "intermediate",
+  "tags": ["time", "philosophy"]
+}
+```
+
+**Important:**
+- Use the next sequential ID number
+- Use a unique date (check existing dates)
+- Include all required fields
+
+**5. Validate Your Word**
+
+Run the validation script to check for errors:
+
+```bash
+npm run validate
+```
+
+Fix any errors before proceeding.
+
+**6. Test Locally (Optional)**
+
+Build and preview the site:
+
+```bash
+npm run build
+npm start
+```
+
+Visit `http://localhost:3000` to see your word.
+
+**7. Commit Your Changes**
+
+```bash
+git add data/words.json
+git commit -m "Add word: ephemeral"
+```
+
+**8. Push to Your Fork**
+
+```bash
+git push origin add-word-ephemeral
+```
+
+**9. Submit a Pull Request**
+
+- Go to your fork on GitHub
+- Click "Pull Request" → "New Pull Request"
+- Select your branch (`add-word-ephemeral`)
+- Add a title: "Add word: ephemeral"
+- Add description explaining your word choice
+- Click "Create Pull Request"
+
+**That's it!** We'll review your contribution and merge it if everything looks good.
+
+### Other Contributions
+
+For bug fixes, features, or documentation improvements:
+
+1. Follow the same fork/branch workflow above
+2. Make your changes
+3. Test thoroughly
+4. Submit a pull request with a clear description
 
 ## License
 

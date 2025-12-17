@@ -2626,6 +2626,27 @@
         "excellence",
         "model"
       ]
+    },
+     {
+      "id": 125,
+      "word": "cloying",
+      "date": "20260411",
+      "pronunciation": "ˈklȯi-iŋ",
+      "partOfSpeech": "adverb",
+      "definition": "excessively sweet or sentimental.",
+      "example": "Her coyness grows cloying after a while.",
+      "etymology": "See CLOY",
+      "synonyms": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "difficulty": "beginner",
+      "tags": [
+        "",
+        ""
+      ]
     }
   ]
 }

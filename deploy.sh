@@ -13,7 +13,7 @@ NC='\033[0m' # No Color
 
 # Configuration (set these after running terraform apply)
 BUCKET="${BUCKET:-wordoftheday.bastionforge.com}"
-DISTRIBUTION_ID="${DISTRIBUTION_ID:-}"  # Set this after terraform apply
+DISTRIBUTION_ID="${DISTRIBUTION_ID:-EUMK92SHRVSDL}"
 BUILD_DIR="out"
 
 # Function to print colored output

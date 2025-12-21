@@ -2628,24 +2628,24 @@
       ]
     },
      {
-      "id": 125,
+      "id": 126,
       "word": "cloying",
       "date": "20260411",
       "pronunciation": "ˈklȯi-iŋ",
-      "partOfSpeech": "adverb",
+      "partOfSpeech": "adjective",
       "definition": "excessively sweet or sentimental.",
       "example": "Her coyness grows cloying after a while.",
-      "etymology": "See CLOY",
+      "etymology": "From Middle English 'cloyen', from Old French 'encloyer' meaning 'to drive in a nail, to make sick with too much food'. Related to the verb 'cloy' meaning to disgust or sicken with excess.",
       "synonyms": [
-        "",
-        "",
-        "",
-        ""
+        "saccharine",
+        "sickly-sweet",
+        "mawkish",
+        "oversentimental"
       ],
       "difficulty": "beginner",
       "tags": [
-        "",
-        ""
+        "excessive",
+        "sentiment"
       ]
     }
   ]
